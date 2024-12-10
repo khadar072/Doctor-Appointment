@@ -18,9 +18,9 @@ const Topdoctors = () => {
             key={index}
             className="border px-2 py-2 rounded-lg h-auto transition-transform transform duration-500 hover:-translate-y-2 hover:border-2 hover:border-blue-700"
           >
-            <div className="max-h-40">
+            <div className="mb-1">
               <img
-                className="h-40 w-full px-2 bg-blue-100 border object-cover rounded-lg"
+                className="h-40 w-full px-2 bg-blue-100 border rounded-lg"
                 src={item.image}
                 alt={`${item.name}`}
               />

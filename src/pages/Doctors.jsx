@@ -254,11 +254,11 @@ const Doctors = () => {
       <div
         onClick={() => navigate(`/appointment/${item._id}`)}
         key={item._id}
-        className="border px-1 py-1 rounded-lg h-auto transition-transform transform duration-500 hover:-translate-y-2 hover:border-2 hover:border-blue-700"
+        className="border px-1 py-1 gap-2 rounded-lg h-auto transition-transform transform duration-500 hover:-translate-y-2 hover:border-2 hover:border-blue-700"
       >
-        <div className="max-h-40">
+        <div className=" mb-1">
           <img
-            className="h-40 w-full px-2 border object-cover bg-blue-100 rounded-lg"
+            className="h-40 w-full px-2 border  bg-blue-100 rounded-lg"
             src={item.image}
             alt={item.name}
           />
