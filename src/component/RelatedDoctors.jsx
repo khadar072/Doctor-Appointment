@@ -14,7 +14,7 @@ const RelatedDoctors = ({docId,speciality}) => {
     },[docId,speciality])
   return (
     <div className="flex flex-col w-full items-center justify-center">
-      <div className="w-full max-h max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 pt-5 gap-y-6 px-3 sm:px-0 cursor-pointer">
+      <div className="w-full  max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 pt-5 gap-y-6 px-3 sm:px-0 cursor-pointer">
         {relDoc.slice(0, 10).map((item, index) => (
                     <div
                       onClick={() => navigate(`/appointment/${item._id}`)}

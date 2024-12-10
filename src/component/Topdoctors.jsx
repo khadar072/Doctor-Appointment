@@ -20,7 +20,7 @@ const Topdoctors = () => {
                     >
                       <div className="max-h-40 ">
                         <img
-                          className=" h-40 w-40 px-2 bg-blue-100 border object-fill  rounded-lg"
+                          className=" h-40 w-full px-2 bg-blue-100 border object-fill  rounded-lg"
                           src={item.image}
                           alt={`${item.name}`}
                         />
