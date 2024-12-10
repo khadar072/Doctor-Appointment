@@ -23,7 +23,7 @@ const RelatedDoctors = ({docId,speciality}) => {
                     >
                       <div className="max-h-40 ">
                         <img
-                          className=" h-40 w-40 border object-fill bg-blue-100  rounded-lg"
+                          className=" h-40 w-full border object-fill bg-blue-100  rounded-lg"
                           src={item.image}
                           alt={`${item.name}`}
                         />
