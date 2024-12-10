@@ -57,7 +57,7 @@ import padiatric from './padiatric.jpg';
 import publicHealth from './publicHealth.jpg';//
 import dandist from './dendist.jpg';
 import cardioligist from './cardioligist.jpg';
-import generalDoctor from './generalDoctor.jpg';
+import generalDoctor from './GeneralDoctor.jpg';
 import orthopidec from './orthopidec.jpg';
 import otology from './otology.jpg';
 import neuroligist from './neuroligist.jpg';
